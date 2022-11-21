@@ -5,11 +5,11 @@ $products = ["鉛筆" => 100, "消しゴム" => 150, "物差し" => 500];
 
 function include_tax($price) {
     //鉛筆
-    return $price = 100 * "TAX";
+    return $price = 100 * TAX;
     //消しゴム
-    return $price = 150 * "TAX";
+    return $price = 150 * TAX;
     //物差し
-    return $price = 500 * "TAX";
+    return $price = 500 * TAX;
 }
 
 foreach($products as $key => $price) {
