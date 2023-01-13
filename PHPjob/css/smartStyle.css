@@ -1,0 +1,76 @@
+@media screen and (max-width: 479px){
+    /* ウィンドウ幅が最大479pxまでの場合に適用 */
+    .header{
+        width: 100%;
+        height: 100%;
+        max-width: 200px;
+        display: flex
+    }
+    .header-box{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+        .header-box1{
+            margin-left: 70px;
+            margin-right: 70px;
+            margin-bottom: 0px;
+            justify-content: center;
+        }
+        .header-box2{
+            margin: 0px 70px;
+            justify-content: center;
+        }
+        .header-box3{
+            margin-top: 0px;
+            margin-left: 70px;
+            margin-right: 70px;
+            justify-content: center;
+        }
+    .main{
+        display: flex;
+        display: block;
+    }
+    .left{
+        width: 100%;
+        max-width: 200px;
+    }
+    .right{
+        width: 100%;
+        max-width: 200px;
+    }
+    .right-box{
+        display: flex;
+    }
+    .right-box1{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .right-box2{
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .right-box3{
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .footer{
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+.contents{
+    display: none;
+    /* この値を指定された要素はブラウザ上で非表示 */
+    float: none;
+    /* 要素の浮動化の解除 */
+    min-width: 1000px;
+    /* 要素がこれ以上大きくならない幅の指定 */
+    width: 100%;
+    /* 横幅を親要素の幅に合わせる */
+    margin-left: auto;
+    /* ボックス左側の左の余白を親要素のはばに合わせる */
+    margin-right: auto;
+    /* ボックス外側の右の余白を親要素の幅に合わせる */
+}
